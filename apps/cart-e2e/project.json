@@ -13,7 +13,9 @@
       },
       "configurations": {
         "production": {
-          "devServerTarget": "cart:serve:production"
+          "devServerTarget": "cart:serve:production",
+          "ignoreTestFiles": "**/skipped.cy.ts",
+          "excludeSpecPattern": "**/skipped.cy.ts"
         }
       }
     },
